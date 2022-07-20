@@ -94,6 +94,8 @@ main {
     margin-top: 150px;
     margin-bottom: 150px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
@@ -123,7 +125,7 @@ nav li a {
     box-shadow: 3px 3px 7px rgb(174, 174, 174);
 }
 
-.blog {
+.area {
     width: calc(100%-360px);
     margin-left: 25px;
 }
@@ -135,15 +137,15 @@ nav li a {
     grid-row-gap: 7px;
 }
 
-.player {
-    border: solid grey 3px;
-    border-radius: 10px;
+
+
+.blog div {
+    padding: 5px;
 }
 
-.player div {
-    padding: 10px;
+#grid .transfer {
+    background-color: rgb(18, 145, 81);
 }
-
 
 .comment {
     display: flex;
@@ -154,7 +156,7 @@ nav li a {
     opacity: 50%;
 }
 
-.player a {
+.blog a {
     text-decoration: none;
     color: #161616;
     background-color: white;
@@ -173,6 +175,7 @@ nav li #currentpage {
 -------------------------------------- */
 
 footer {
+    width: 100%;
     height: 300px;
     background-color: #161616;
 }
@@ -185,6 +188,7 @@ footer h5 {
 }
 
 hr {
+    width: 80%;
     opacity: 15%;
 }
 

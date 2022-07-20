@@ -132,15 +132,16 @@ nav li a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 7px;
+    grid-row-gap: 7px;
 }
 
 .player div {
     padding: 10px;
 }
 
-.comment {
-    display: flex;
-    justify-content: space-between;
+.player {
+    box-shadow: 3px 3px 7px rgb(174, 174, 174);
+    border-radius: 5px;
 }
 
 .comment div i {
@@ -178,6 +179,7 @@ footer h5 {
 }
 
 hr {
+    width: 80%;
     opacity: 15%;
 }
 
@@ -296,6 +298,8 @@ footer ul a {
     main {
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav ul {
@@ -312,6 +316,7 @@ footer ul a {
     }
 
     #viewall {
+        margin-top: 100px;
         width: 100px;
         display: block;
     }
