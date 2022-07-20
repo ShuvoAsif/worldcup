@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    width: 100%;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
@@ -84,4 +85,15 @@ nav li {
 
 nav li a {
     text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.blog {
+    width: calc(100%-325px);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
