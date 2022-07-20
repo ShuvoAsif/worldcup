@@ -152,3 +152,93 @@ footer ul a {
     color: white;
     font-size: 10px;
 }
+
+/* ------------------------------------
+-------------media quoeries------------
+-------------small device--------------
+------------------------------------- */
+
+@media screen and (max-width: 688px) {
+
+    body {
+        width: 600PX;
+    }
+
+    header {
+        width: 600px;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text {
+        width: 600px;
+        padding-left: 10px;
+    }
+
+    #pic {
+        width: 600px;
+        margin: 0;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* -----------------------------------------------
+--------media quoeries medium device -------------
+-------------------------------------------------*/
+@media screen and (min-width: 689px) and (max-width: 992px) {
+
+    body {
+        width: 900PX;
+    }
+
+    header {
+        width: 900px;
+        height: 1300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #text {
+        width: 900px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    #pic {
+        width: 900px;
+        margin: 0;
+        padding-left: 150px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
