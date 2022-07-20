@@ -60,6 +60,12 @@ p {
     box-shadow: 3px 3px 7px rgb(174, 174, 174);
 }
 
+#viewall {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* -----------------------------
 -------------animation ---------
 ------------------------------*/
@@ -68,7 +74,7 @@ header:hover {
     width: 100%;
     margin-top: 50px;
     background-image: url(/images/worldcup.jpg);
-    background-color: rgba(0, 0, 0, 0.607);
+    background-color: rgba(0, 0, 0, 0.575);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,6 +138,15 @@ nav li a {
     padding: 10px;
 }
 
+.comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment div i {
+    font-size: 20px;
+}
+
 .player a {
     text-decoration: none;
     color: #161616;
@@ -178,6 +193,17 @@ footer ul a {
     font-size: 10px;
 }
 
+#icon {
+    padding: 25px;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icon i {
+    color: white;
+}
+
 /* ------------------------------------
 -------------media quoeries------------
 -------------small device--------------
@@ -222,6 +248,18 @@ footer ul a {
     #grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 }
 
@@ -271,6 +309,11 @@ footer ul a {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 100px;
+    }
+
+    #viewall {
+        width: 100px;
+        display: block;
     }
 
     #grid {
