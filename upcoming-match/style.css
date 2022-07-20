@@ -162,6 +162,8 @@ footer ul a {
 
     body {
         width: 600PX;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header {
@@ -205,6 +207,8 @@ footer ul a {
 
     body {
         width: 900PX;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     header {
@@ -231,7 +235,14 @@ footer ul a {
         flex-direction: column;
     }
 
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
     nav {
+        width: 600px;
+        height: 100px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 100px;
