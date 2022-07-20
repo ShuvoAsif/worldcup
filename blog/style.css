@@ -11,7 +11,7 @@ body {
 ---------------- */
 
 header {
-
+    position: relative;
     height: 646px;
     background-color: #161616;
     border-top-left-radius: 30px;
@@ -19,6 +19,7 @@ header {
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
     display: flex;
+    transition: background-image 10s ease-in;
 }
 
 h1 {
@@ -58,6 +59,26 @@ p {
     padding: 10px 40px;
     box-shadow: 3px 3px 7px rgb(174, 174, 174);
 }
+
+/* -----------------------------
+-------------animation ---------
+------------------------------*/
+
+header:hover {
+    width: 100%;
+    margin-top: 50px;
+    background-image: url(/images/worldcup.jpg);
+    background-color: rgba(0, 0, 0, 0.607);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+
 
 /* ------------------------------------------
 ------------------main saction---------------
@@ -139,6 +160,10 @@ footer h5 {
     color: white;
     font-size: 30px;
     text-align: center;
+}
+
+hr {
+    opacity: 15%;
 }
 
 footer ul {
