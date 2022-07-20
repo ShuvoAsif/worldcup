@@ -1,5 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* ---------------
@@ -14,9 +17,7 @@ header {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+
     display: flex;
 }
 
@@ -56,4 +57,31 @@ p {
     border-radius: 5px;
     padding: 10px 40px;
     box-shadow: 3px 3px 7px rgb(174, 174, 174);
+}
+
+/* ------------------------------------------
+------------------main saction---------------
+------------------------------------------- */
+
+main {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+}
+
+nav {
+    background-color: black;
+    width: 312px;
+    height: 312px;
+    padding: 30px;
+    border: solid black 10px;
+    border-radius: 10px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
 }
